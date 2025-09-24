@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — Senior Empire™</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <img src="images/logo.svg" alt="Senior Empire logo" class="logo" />
+        <span class="brand-text">Senior Empire™</span>
+      </a>
+      <button id="nav-toggle" aria-controls="nav" aria-expanded="false">☰</button>
+      <nav id="nav" class="site-nav" data-visible="false">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="container">
+    <h1>Contact Us</h1>
+    <p>We’d love to hear from you! Whether for orders, collaborations, or inquiries.</p>
+
+    <form id="contact-form" action="#" method="POST" novalidate>
+      <label>
+        Full Name
+        <input type="text" name="name" required />
+      </label>
+
+      <label>
+        Email
+        <input type="email" name="email" required />
+      </label>
+
+      <label>
+        Message
+        <textarea name="message" rows="4" required></textarea>
+      </label>
+
+      <button type="submit" class="btn">Send</button>
+    </form>
+
+    <section class="contact-info">
+      <h2>Our Contact Details</h2>
+      <p><strong>Phone:</strong> +254 745 395 981</p>
+      <p><strong>Email:</strong> newtonkiogora87@gmail.com</p>
+      <p><strong>Location:</strong> Meru, Kenya</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Senior Empire™ — Powered by Biological Fresh™</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Gallery — Senior Empire™</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <img src="images/logo.svg" alt="Senior Empire logo" class="logo" />
+        <span class="brand-text">Senior Empire™</span>
+      </a>
+      <button id="nav-toggle" aria-controls="nav" aria-expanded="false">☰</button>
+      <nav id="nav" class="site-nav" data-visible="false">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="gallery.html" aria-current="page">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="container">
+    <h1>Gallery</h1>
+    <p>Scenes from our dragon fruit farm and recent projects.</p>
+
+    <section class="gallery-grid">
+      <figure data-animate>
+        <img src="images/farm1.jpg" alt="Dragon fruit farm rows" loading="lazy" />
+        <figcaption>Our dragon fruit plantation in Meru</figcaption>
+      </figure>
+      <figure data-animate>
+        <img src="IMG-20241217-WA0022.jpg" alt="Harvested dragon fruits in crate" loading="lazy" />
+        <figcaption>Freshly harvested fruits</figcaption>
+      </figure>
+      <figure data-animate>
+        <img src="IMG_20241029_112119_801.jpg" alt="E-commerce project screenshot" loading="lazy" />
+        <figcaption>Dragon fruit e-commerce project</figcaption>
+      </figure>
+      <figure data-animate>
+        <img src="IMG_20241206_113620_457.jpg" alt="Library system project screenshot" loading="lazy" />
+        <figcaption>Library Management System project</figcaption>
+      </figure>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Senior Empire™ — Powered by Biological Fresh™</p>
+      <p><a href="contact.html">Contact us</a></p>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
