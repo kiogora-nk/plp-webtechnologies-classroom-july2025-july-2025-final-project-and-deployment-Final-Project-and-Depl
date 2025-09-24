@@ -1,90 +1,134 @@
-# 📦 Final Assignment: Build, Organize, and Deploy a Multipage Website
+# Dragon Fruit Website 🍓🐉
 
-You're now ready to bring everything together—HTML, CSS, JavaScript, planning, structure, and deployment. This final project challenges you to **conceptualize, build, and deploy a multi-page website** that is responsive, interactive, and ready for the real world.
+A multipage website project showcasing a **dragon fruit farm** and related projects.  
+This is my **Final Web Development Assignment** — integrating **HTML5, CSS3, and JavaScript** into a responsive, interactive, and production-ready website.
 
-This assignment will guide you from planning your site all the way to deploying it online. Let’s make your project *production-worthy*! 🚀
-
----
-
-## 🌐🎯 Part 1: Planning and Organizing a Multipage Website
-
-Before you write any code, take time to plan:
-
-* Define your website's purpose (portfolio, product showcase, blog, etc.)
-* Outline 3–5 pages (e.g., Home, About, Services, Contact, Gallery)
-* Sketch or describe the layout of each page
-* Map out internal navigation (how pages link to one another)
-
-**Goal:** Show intentional structure and user journey across the site.
+🔗 **Live Demo:**  
+[View Website Here](https://kiogora-nk.github.io/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl/)
 
 ---
 
-## 🌍💻 Part 2: Build the Website Using HTML5, CSS, and JavaScript
-
-Using your plan, begin building:
-
-* Use HTML5 for semantic structure
-* Apply CSS for responsive layout, styling, and animations
-* Use JavaScript to add interactivity (menus, forms, toggles, dynamic content)
-
-Each page should:
-
-* Be mobile-responsive
-* Share a consistent layout/header/footer
-* Include at least one interactive element (e.g., form validation, toggle menu, animation on scroll)
-
-**Goal:** Integrate everything you’ve learned in a cohesive, functioning project.
+## 📌 Purpose
+The purpose of this project is to:
+- Practice **building, organizing, and deploying** a real-world multipage website.
+- Showcase a **dragon fruit farm** and provide useful information to potential customers and visitors.
+- Implement responsive design and interactive features using JavaScript.
+- Deploy the project live for accessibility and evaluation.
 
 ---
 
-## 🛠️🚀 Part 3: Best Practices for Code Organization
+## 📂 File Structure
+# Dragon Fruit Website 🍓🐉
 
-Before deployment, refactor your project to follow production-friendly practices:
+A multipage website project showcasing a **dragon fruit farm** and related projects.  
+This is my **Final Web Development Assignment** — integrating **HTML5, CSS3, and JavaScript** into a responsive, interactive, and production-ready website.
 
-* Organize files in folders (`/css`, `/js`, `/images`, etc.)
-* Write clean, modular, and commented code
-* Use meaningful file names and relative paths
-* Validate your HTML/CSS and test on different screen sizes
-
-**Goal:** Prepare your codebase to be readable, maintainable, and scalable.
+🔗 **Live Demo:**  
+[View Website Here](https://kiogora-nk.github.io/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl/)
 
 ---
 
-## 🌐🚀 Part 4: Introduction to Hosting and Deployment
-
-Once your project is complete, choose a method to **host your site online**.
-
-You can use:
-
-* **GitHub Pages** (great for portfolios and static sites)
-* **Netlify** (powerful CI/CD features and easy form support)
-* **Vercel** (lightning-fast deployment for frontend projects)
-
-Deploy your project and confirm that:
-
-* All links and scripts work
-* It loads properly on mobile and desktop
-* It has a clear, shareable URL
-
-**Goal:** Publish your work online and make it accessible to the world.
+## 📌 Purpose
+The purpose of this project is to:
+- Practice **building, organizing, and deploying** a real-world multipage website.
+- Showcase a **dragon fruit farm** and provide useful information to potential customers and visitors.
+- Implement responsive design and interactive features using JavaScript.
+- Deploy the project live for accessibility and evaluation.
 
 ---
 
-## Deliverables
+## 📂 File Structure  
+index.html # Home page
+│── about.html # About page
+│── gallery.html # Gallery page (farm images & projects)
+│── contact.html # Contact page (form + details)
+│
+├── css/
+│ └── style.css # Main stylesheet (layout, responsive design, animations)
+│
+├── js/
+│ └── main.js # Interactivity (menu, forms, gallery, animations)
+│
 
-1. A GitHub repository containing:
 
-   * Your complete project code, properly organized
-   * A `README.md` file explaining your project purpose, structure, and live URL
-2. A live deployed website (hosted via GitHub Pages, Netlify, or Vercel)
+
+
+
+# Project documentation
+# Dragon Fruit Website 🍓🐉
+
+A multipage website project showcasing a **dragon fruit farm** and related projects.  
+This is my **Final Web Development Assignment** — integrating **HTML5, CSS3, and JavaScript** into a responsive, interactive, and production-ready website.
+
+🔗 **Live Demo:**  
+[View Website Here](https://kiogora-nk.github.io/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl/)
 
 ---
 
-## Outcome
+## 📌 Purpose
+The purpose of this project is to:
+- Practice **building, organizing, and deploying** a real-world multipage website.
+- Showcase a **dragon fruit farm** and provide useful information to potential customers and visitors.
+- Implement responsive design and interactive features using JavaScript.
+- Deploy the project live for accessibility and evaluation.
 
-* Clarity and thoroughness of planning documentation
-* Proper use of HTML5, CSS, and JavaScript across multiple pages
-* Responsive and accessible design
-* Clean, well-organized, and commented code
-* Successful live deployment with a working link
-* Evidence of following best practices
+---
+
+## 📂 File Structure
+
+---
+
+## ✨ Features
+- **Responsive Design** – Works on desktop, tablet, and mobile.
+- **Navigation Menu** – Toggle menu for mobile devices.
+- **Scroll Animations** – Elements fade in as you scroll.
+- **Gallery with Lightbox** – Clickable images open in an overlay.
+- **Contact Form** – Includes JavaScript validation + success message modal.
+- **Newsletter Form** – Subscription with a simulated backend response.
+- **Consistent Layout** – Shared header, footer, and styles across pages.
+
+---
+
+## 🛠️ Technologies Used
+- **HTML5** – Semantic structure
+- **CSS3** – Layout, responsiveness, animations
+- **JavaScript (Vanilla JS)** – Interactivity & form handling
+- **GitHub Pages** – Hosting & deployment
+
+---
+
+## 🚀 Deployment
+This project is deployed via **GitHub Pages**:
+
+1. Code pushed to GitHub repository.
+2. GitHub Pages enabled from repository **Settings → Pages → Deploy from branch**.
+3. The site is now accessible at:  
+   👉 [Live Website](https://kiogora-nk.github.io/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl/)
+
+---
+
+## ✅ To Test on the Live Site
+- Navigate across all pages (Home, About, Gallery, Contact).
+- Check responsive layout (desktop, tablet, mobile).
+- Submit forms (invalid + valid inputs).
+- Open and close gallery images.
+- Confirm footer year auto-updates.
+
+---
+
+## 📌 Future Improvements
+- Add favicon (browser tab icon).
+- Optimize image sizes for faster loading.
+- Add SEO meta tags (title, description, OpenGraph).
+- Connect contact form to a real backend or service (Netlify Forms / EmailJS).
+- Improve accessibility (aria-labels, contrast testing).
+
+---
+
+## 📧 Contact
+Developed by **Kiogo Newton (Senior Kiogo)**  
+📩 Email: newtonkiogora87@gmail.com  
+📞 Phone: 0745395981  
+🌐 Portfolio (Coming soon): [seniorkiogo.tech](http://seniorkiogo.tech)
+
+---
